@@ -22,7 +22,7 @@ const SHOP_DATA = [
       },
       {
         id: 3,
-        name: "Checkered",
+        name: "Checkered Red & Blue",
         imageUrl:
           "https://images.unsplash.com/photo-1543132220-c6440149c632?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
         price: 14.99
