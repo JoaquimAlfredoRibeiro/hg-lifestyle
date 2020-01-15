@@ -1,6 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
+import NumberFormat from "react-number-format";
 
 import CheckoutItem from "../../components/checkout-item/checkout-item.component";
 
@@ -33,7 +34,17 @@ const CheckoutPage = ({ cartItems, total }) => (
     {cartItems.map(cartItem => (
       <CheckoutItem key={cartItem.id} cartItem={cartItem} />
     ))}
-    <div className="total">TOTAL: ${total}</div>
+    <div className="total">
+      TOTAL:{" "}
+      <NumberFormat
+        className="total"
+        value={total}
+        displayType={"text"}
+        thousandSeparator={true}
+        prefix={"$"}
+        decimalScale="2"
+      />
+    </div>
   </div>
 );
 
