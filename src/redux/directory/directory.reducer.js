@@ -35,7 +35,7 @@ const INITIAL_STATE = {
         "https://bglh-marketplace.com/wp-content/uploads/2017/12/tipsformoisturizedhairinwinter.jpg",
       size: "large",
       id: 5,
-      linkUrl: "shop/tieswomens"
+      linkUrl: "shop/womens"
     }
   ]
 };

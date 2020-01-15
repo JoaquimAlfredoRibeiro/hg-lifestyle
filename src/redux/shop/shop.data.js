@@ -1,7 +1,7 @@
 /* Used as starting data for ShopPage */
 
-const SHOP_DATA = [
-  {
+const SHOP_DATA = {
+  ties: {
     id: 1,
     title: "Ties",
     routeName: "ties",
@@ -57,7 +57,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  socks: {
     id: 2,
     title: "Socks",
     routeName: "socks",
@@ -101,12 +101,12 @@ const SHOP_DATA = [
         id: 13,
         name: "Polka Yellow",
         imageUrl:
-          "/https://images.unsplash.com/photo-1569091355344-9d6924a3dded?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+          "https://images.unsplash.com/photo-1569091355344-9d6924a3dded?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
         price: 7.99
       }
     ]
   },
-  {
+  watches: {
     id: 3,
     title: "Watches",
     routeName: "watches",
@@ -169,7 +169,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  mens: {
     id: 4,
     title: "Mens",
     routeName: "mens",
@@ -218,7 +218,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  womens: {
     id: 5,
     title: "Womens",
     routeName: "womens",
@@ -267,6 +267,6 @@ const SHOP_DATA = [
       }
     ]
   }
-];
+};
 
 export default SHOP_DATA;

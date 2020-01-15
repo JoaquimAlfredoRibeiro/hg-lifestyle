@@ -41,7 +41,7 @@ const CheckoutPage = ({ cartItems, total }) => (
         value={total}
         displayType={"text"}
         thousandSeparator={true}
-        prefix={"$"}
+        suffix={"€"}
         decimalScale="2"
       />
     </div>
